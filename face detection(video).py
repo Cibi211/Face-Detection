@@ -5,7 +5,6 @@ alg="haarcascade_frontalface_default.xml"
 #to load the algorithm
 haar_cascade=cv2.CascadeClassifier(alg)
 video_path="1.mp4"
-#img=cv2.imread(video_path)
 cam=cv2.VideoCapture(video_path)
 
 while True:
